@@ -1,0 +1,5 @@
+<level id="1">
+	<player	asset="boxy1" width="32" height="32" />
+	<object id="switch" asset="switch" direction="DOWN" x="17" y="9" use="true" target="moveBlock" behavior="moveTargetRight" />
+	<object id="moveBlock" asset="wall" x="17" y="5" stop="true" land="true" />
+</level>
